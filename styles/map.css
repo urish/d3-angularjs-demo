@@ -1,0 +1,19 @@
+/* Styles for directive1 */
+circle {
+	fill-opacity: 0.5;
+}
+
+/* Styles for directive2 */
+path.checkin {
+	fill: white;
+	stroke: black;
+	stroke-width: 10
+}
+
+path.boys {
+	fill: red;
+}
+
+path.girls {
+	fill: pink;
+}

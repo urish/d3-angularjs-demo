@@ -1,0 +1,32 @@
+.header {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 12px;
+}
+
+div[live-map] {
+	float: left;
+	width: 600px;
+	margin-right: 40px;
+}
+
+.legend {
+	float: left;
+	width: 140px;
+}
+
+.legend h4 {
+	margin-top: 0;
+}
+
+.legend .boys,
+.legend .girls {
+	display: inline-block;
+	width: 20px;
+	height: 12px;
+	border: 1px solid black;
+	background-color: red;
+}
+
+.legend .girls {
+	background-color: pink;
+}

@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>D3 + Angular.JS Demo</title>
+
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"/>
+		<link rel="stylesheet" href="styles/page.css"/>
+		<link rel="stylesheet" href="styles/map.css"/>
+	</head>
+
+	<body ng-app="D3Demo">
+		<div class="container">
+			<div class="header">
+				<h3 class="text-muted">
+					Live Check-ins Demo
+				</h3>
+			</div>
+
+			<div ng-controller="MainCtrl">
+				<div live-map checkin-data="checkins">
+				</div>
+
+				<div class="legend ng-hide">
+					<h4>Legend</h4>
+					<div>
+						<span class="boys"> </span> Boys
+					</div>
+					<div>
+						<span class="girls"> </span> Girls
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="bower_components/d3/d3.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="scripts/app.js"></script>
+		<script src="scripts/directive2.js"></script>
+	</body>
+</html>

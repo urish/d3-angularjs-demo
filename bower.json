@@ -1,0 +1,20 @@
+{
+  "name": "d3js",
+  "version": "0.0.0",
+  "authors": [
+    "Uri Shaked <uri@salsa4fun.co.il>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.14",
+    "d3": "~3.4.3",
+    "bootstrap": "~3.1.1"
+  }
+}
